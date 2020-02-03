@@ -26,6 +26,7 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 
 + Vertcenter
 + Scrollback
++ font2
 + updated to latest version 0.8.2
 
 ## Installation for newbs
@@ -68,6 +69,10 @@ To be clear about the color settings:
 - But if `wal` has run in your session, its colors will take priority.
 
 Note that when you run `wal`, it will negate the transparency of existing windows, but new windows will continue with the previously defined transparency.
+
+## Crashing error
+
+If st crashes when viewing emojis, install `[libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/)` from the AUR.
 
 ## Contact
 
